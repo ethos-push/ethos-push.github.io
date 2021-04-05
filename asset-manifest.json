@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ethos-push/ethos-push.github.io/static/css/main.0ac1ac59.chunk.css",
+    "main.js": "/ethos-push/ethos-push.github.io/static/js/main.6cbb35cd.chunk.js",
+    "main.js.map": "/ethos-push/ethos-push.github.io/static/js/main.6cbb35cd.chunk.js.map",
+    "runtime-main.js": "/ethos-push/ethos-push.github.io/static/js/runtime-main.b6e91c1d.js",
+    "runtime-main.js.map": "/ethos-push/ethos-push.github.io/static/js/runtime-main.b6e91c1d.js.map",
+    "static/css/2.d0176e96.chunk.css": "/ethos-push/ethos-push.github.io/static/css/2.d0176e96.chunk.css",
+    "static/js/2.395b42e5.chunk.js": "/ethos-push/ethos-push.github.io/static/js/2.395b42e5.chunk.js",
+    "static/js/2.395b42e5.chunk.js.map": "/ethos-push/ethos-push.github.io/static/js/2.395b42e5.chunk.js.map",
+    "index.html": "/ethos-push/ethos-push.github.io/index.html",
+    "precache-manifest.840a4dde1575783898afcb8018321408.js": "/ethos-push/ethos-push.github.io/precache-manifest.840a4dde1575783898afcb8018321408.js",
+    "service-worker.js": "/ethos-push/ethos-push.github.io/service-worker.js",
+    "static/css/2.d0176e96.chunk.css.map": "/ethos-push/ethos-push.github.io/static/css/2.d0176e96.chunk.css.map",
+    "static/css/main.0ac1ac59.chunk.css.map": "/ethos-push/ethos-push.github.io/static/css/main.0ac1ac59.chunk.css.map",
+    "static/js/2.395b42e5.chunk.js.LICENSE.txt": "/ethos-push/ethos-push.github.io/static/js/2.395b42e5.chunk.js.LICENSE.txt",
+    "static/js/main.6cbb35cd.chunk.js.LICENSE.txt": "/ethos-push/ethos-push.github.io/static/js/main.6cbb35cd.chunk.js.LICENSE.txt",
+    "static/media/marc.jpg": "/ethos-push/ethos-push.github.io/static/media/marc.8880a65c.jpg",
+    "static/media/sidebar-1.jpg": "/ethos-push/ethos-push.github.io/static/media/sidebar-1.8e9f0a3c.jpg",
+    "static/media/sidebar-2.jpg": "/ethos-push/ethos-push.github.io/static/media/sidebar-2.310509c9.jpg",
+    "static/media/sidebar-3.jpg": "/ethos-push/ethos-push.github.io/static/media/sidebar-3.25031690.jpg",
+    "static/media/sidebar-4.jpg": "/ethos-push/ethos-push.github.io/static/media/sidebar-4.fc9cb053.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6e91c1d.js",
+    "static/css/2.d0176e96.chunk.css",
+    "static/js/2.395b42e5.chunk.js",
+    "static/css/main.0ac1ac59.chunk.css",
+    "static/js/main.6cbb35cd.chunk.js"
+  ]
+}
