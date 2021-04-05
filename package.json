@@ -47,7 +47,7 @@
   "bugs": {
     "url": "https://github.com/creativetimofficial/material-dashboard-react/issues"
   },
-  "homepage": "https://github.com/ethos-push/ethos-push.github.io",
+  "homepage": "https://ethos-push.github.io/",
   "optionalDependencies": {
     "@types/googlemaps": "3.39.6",
     "@types/markerclustererplus": "2.1.33",
