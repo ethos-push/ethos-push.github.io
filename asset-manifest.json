@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d0ef727c.chunk.css",
+    "main.js": "/static/js/main.ad491567.chunk.js",
+    "main.js.map": "/static/js/main.ad491567.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.18f78518.js",
+    "runtime-main.js.map": "/static/js/runtime-main.18f78518.js.map",
+    "static/css/2.9c1257d4.chunk.css": "/static/css/2.9c1257d4.chunk.css",
+    "static/js/2.4ade308e.chunk.js": "/static/js/2.4ade308e.chunk.js",
+    "static/js/2.4ade308e.chunk.js.map": "/static/js/2.4ade308e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.9c1257d4.chunk.css.map": "/static/css/2.9c1257d4.chunk.css.map",
+    "static/css/main.d0ef727c.chunk.css.map": "/static/css/main.d0ef727c.chunk.css.map",
+    "static/js/2.4ade308e.chunk.js.LICENSE.txt": "/static/js/2.4ade308e.chunk.js.LICENSE.txt",
+    "static/media/cwgangp_data.9f3d7721.csv": "/static/media/cwgangp_data.9f3d7721.csv",
+    "static/media/excel.2c8f83c6.png": "/static/media/excel.2c8f83c6.png",
+    "static/media/icon-02.01d99a9f.svg": "/static/media/icon-02.01d99a9f.svg",
+    "static/media/icon-03.57348b90.svg": "/static/media/icon-03.57348b90.svg",
+    "static/media/wgan_data.f2a0964e.csv": "/static/media/wgan_data.f2a0964e.csv",
+    "static/media/wgangp_data.d05a2a7c.csv": "/static/media/wgangp_data.d05a2a7c.csv"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18f78518.js",
+    "static/css/2.9c1257d4.chunk.css",
+    "static/js/2.4ade308e.chunk.js",
+    "static/css/main.d0ef727c.chunk.css",
+    "static/js/main.ad491567.chunk.js"
+  ]
+}
