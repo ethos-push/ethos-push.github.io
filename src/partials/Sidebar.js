@@ -1,6 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 
+
+import Icon from '../images/icon.png'
+
 function Sidebar({
   sidebarOpen,
   setSidebarOpen
@@ -63,24 +66,7 @@ function Sidebar({
           </button>
           {/* Logo */}
           <div className="flex">
-            <NavLink exact to="/" className="block">
-              <svg width="32" height="32" viewBox="0 0 32 32">
-                <defs>
-                  <linearGradient x1="28.538%" y1="20.229%" x2="100%" y2="108.156%" id="logo-a">
-                    <stop stopColor="#A5B4FC" stopOpacity="0" offset="0%" />
-                    <stop stopColor="#A5B4FC" offset="100%" />
-                  </linearGradient>
-                  <linearGradient x1="88.638%" y1="29.267%" x2="22.42%" y2="100%" id="logo-b">
-                    <stop stopColor="#38BDF8" stopOpacity="0" offset="0%" />
-                    <stop stopColor="#38BDF8" offset="100%" />
-                  </linearGradient>
-                </defs>
-                <rect fill="#6366F1" width="32" height="32" rx="16" />
-                <path d="M18.277.16C26.035 1.267 32 7.938 32 16c0 8.837-7.163 16-16 16a15.937 15.937 0 01-10.426-3.863L18.277.161z" fill="#4F46E5" />
-                <path d="M7.404 2.503l18.339 26.19A15.93 15.93 0 0116 32C7.163 32 0 24.837 0 16 0 10.327 2.952 5.344 7.404 2.503z" fill="url(#logo-a)" />
-                <path d="M2.223 24.14L29.777 7.86A15.926 15.926 0 0132 16c0 8.837-7.163 16-16 16-5.864 0-10.991-3.154-13.777-7.86z" fill="url(#logo-b)" />
-              </svg>
-            </NavLink>
+            <img  src={Icon} width="50" height="50" viewBox="0 0 100 100" alt="Logo" />
             <h2 className="ml-3 my-auto text-white">ETHOS-Push</h2>
           </div>
         </div>
@@ -133,6 +119,22 @@ function Sidebar({
 								l5.162-5.743c0.238-0.236,0.238-0.619,0-0.856C16.529,7.614,16.146,7.614,15.91,7.85z"></path>
                   </svg>
                   <span className="text-sm font-medium">Data</span>
+                </div>
+              </NavLink>
+            </li>
+            <li className={`px-3 py-2 rounded-sm mb-0.5 last:mb-0 ${page === 'contact' && 'bg-gray-900'}`}>
+              <NavLink exact to="/contact" className={`block text-gray-200 hover:text-white transition duration-150 ${page === 'contact' && 'hover:text-gray-200'}`}>
+                <div className="flex flex-grow">
+                  <svg className="flex-shrink-0 h-6 w-6 mr-3" viewBox="0 0 24 24">
+                    <path className={`fill-current text-gray-400 ${page === 'contact' && 'text-indigo-500'}`} d="M12.871,9.337H7.377c-0.304,0-0.549,0.246-0.549,0.549c0,0.303,0.246,0.55,0.549,0.55h5.494
+								c0.305,0,0.551-0.247,0.551-0.55C13.422,9.583,13.176,9.337,12.871,9.337z M15.07,6.04H5.179c-0.304,0-0.549,0.246-0.549,0.55
+								c0,0.303,0.246,0.549,0.549,0.549h9.891c0.303,0,0.549-0.247,0.549-0.549C15.619,6.286,15.373,6.04,15.07,6.04z M17.268,1.645
+								H2.981c-0.911,0-1.648,0.738-1.648,1.648v10.988c0,0.912,0.738,1.648,1.648,1.648h4.938l2.205,2.205l2.206-2.205h4.938
+								c0.91,0,1.648-0.736,1.648-1.648V3.293C18.916,2.382,18.178,1.645,17.268,1.645z M17.816,13.732c0,0.607-0.492,1.1-1.098,1.1
+								h-4.939l-1.655,1.654l-1.656-1.654H3.531c-0.607,0-1.099-0.492-1.099-1.1v-9.89c0-0.607,0.492-1.099,1.099-1.099h13.188
+								c0.605,0,1.098,0.492,1.098,1.099V13.732z"></path>
+                  </svg>
+                  <span className="text-sm font-medium">Contact</span>
                 </div>
               </NavLink>
             </li>

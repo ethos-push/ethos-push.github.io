@@ -103,20 +103,19 @@ function Home() {
                       <p className="mt-4 text-gray-600">
                           <strong>ETHOS-Push</strong>, is an approach toward the autonomous orchestration (creation, delivery,
                           presentation and reflection) of push-notifications. During the development of this approach,
-                          a method of generating synthetic notification data was created. This website shares
-                          the findings and resources of this method to facilitate future work
-                          in the field of push-notifications.
+                          a number of methods, tools and resources were created to improve push-notification experiences and
+                          help facilitate future work in the field.
                       </p>
                   </div>
                   <div className="flex justify-end items-center mt-4 w-full">
                       <button className="btn bg-indigo-500 hover:bg-indigo-600 text-white ml-2">
-                          <span className="hidden xs:block">Learn More</span>
+                          <a className="hidden xs:block" href="/about">Learn More</a>
                       </button>
                       <button className="btn bg-indigo-500 hover:bg-indigo-600 text-white ml-2">
-                          <span className="hidden xs:block">Get Data</span>
+                          <a className="hidden xs:block" href="/data">Get Data</a>
                       </button>
                       <button className="btn bg-indigo-500 hover:bg-indigo-600 text-white ml-2">
-                          <span className="hidden xs:block">Contact Us</span>
+                          <a className="hidden xs:block" href="/contact">Contact Us</a>
                       </button>
                   </div>
               </div>

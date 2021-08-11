@@ -14,6 +14,7 @@ import './charts/ChartjsConfig';
 import Home from './pages/Home';
 import About from './pages/About';
 import Data from './pages/Data';
+import Contact from './pages/Contact';
 import Dashboard from './pages/Dashboard';
 
 function App() {
@@ -41,6 +42,9 @@ function App() {
         </Route>
         <Route exact path="/dashboard">
           <Dashboard />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
         </Route>
       </Switch>
     </>

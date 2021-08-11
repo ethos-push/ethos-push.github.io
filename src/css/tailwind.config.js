@@ -2,6 +2,9 @@ const colors = require('tailwindcss/colors');
 
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  corePlugins: {
+    scale: true
+  },
   theme: {
     extend: {
       boxShadow: {
@@ -57,9 +60,10 @@ module.exports = {
   },
   variants: {
     extend: {
-      margin: ['first', 'last'],
+      margin: ['first', 'last', 'hover'],
       borderWidth: ['first', 'last'],
-      padding: ['first', 'last'],
+      padding: ['first', 'last', 'hover'],
+      fontWeight: ['hover']
     },
   },
   plugins: [

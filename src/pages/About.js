@@ -80,21 +80,46 @@ function About() {
                           </g>
                       </svg>
                   </div>
-                  <div className="flex justify-between items-center">
-                      <span className="font-light text-gray-600">April 14, 2021</span>
-                  </div>
                   <div className="mt-2 text-justify">
-                      <a className="text-2xl text-gray-700 hover:text-gray-600">
+                      <h1 className="text-2xl text-gray-700 hover:text-gray-600">
                           What is ETHOS-Push?
-                      </a>
+                      </h1>
                       <p className="mt-4 text-gray-600">
-                          More about the methods
+                          ETHOS-Push outlines an approach toward push-notification creation, delivery, presentation and reflection which facilitates a <i>positive</i> experience for both
+                          those <i>pushing</i> and <i>receiving</i> notifications. Ethos is a Greek word for "character" and is defined as <i>the distinguishing moral nature or
+                          guiding beliefs of a person or group</i>. As technology becomes increasingly ubiquitous and human tasks are further automated,
+                          it is important for us to consider the ethos by which our machines and algorithms make decisions and take action. Is there a good and decent moral code
+                          imbued in our creations? Or do our artificial agents inherit the same human flaws we fall victim to?
                       </p>
+                      <p className="mt-4 text-gray-600">What ethos dictates the creation, delivery, presentation and subscriber reaction to push-notifications? More often
+                          than not, it is that of the brands, marketing teams and technology giants which facilitate the information to be pushed at times which they dictate -
+                          these may not always adhere to a good moral code, particularly from the perspective of the subscriber, the end-user receiving the notification.</p>
+
+                      <p className="mt-4 text-gray-600">ETHOS-Push, or <strong>E</strong>mpa<strong>TH</strong>etic <strong>O</strong>rchestration of
+                           <strong> S</strong>crutable <strong>Push</strong>, is a set of guidelines and resources for good/responsible behaviour with respect to orchestration of
+                          and engagement with push-notifications, such that algorithms and automated systems which imbue them may act in a responsible manner and improve
+                          the experience for both the end-user receiving and the brand pushing notifications.</p>
+
+                      <p className="mt-4 text-gray-600 font-bold">Resources:</p>
+                      <ol className="ml-4 mt-2 list-decimal text-gray-600">
+                          <li className="mb-2">
+                              <a href="/data" className="cursor-pointer transform hover:scale-y-110 hover:p-0.5 hover:font-bold underline">Synthetic Notification Data</a>
+                              <p><i>Open source, synthetic data sets, derived from notification engagements captured in-the-wild
+                                  with which to train algorithms to better manage push-notifications</i></p>
+                          </li>
+                          <li className="mb-2">
+                              <a className="cursor-pointer transform hover:scale-y-110 hover:p-0.5 hover:font-bold underline"
+                                 href="https://github.com/kieranfraser/gym-push" target="_blank">Gym-push</a>
+                              <p><i>An open source environment facilitating comparative evaluation of autonomous agents tasked with generating personalised push-notifications</i></p>
+                          </li>
+                          <li>The SCRUPLE (coming soon 👀)</li>
+                          <li>Info-gap Classification (coming soon 👀)</li>
+                      </ol>
                   </div>
                   <div className="flex justify-end items-center mt-4 w-full">
-                      <button className="btn bg-indigo-500 hover:bg-indigo-600 text-white ml-2">
+                      {/*<button className="btn bg-indigo-500 hover:bg-indigo-600 text-white ml-2">
                           <span className="hidden xs:block">Learn More</span>
-                      </button>
+                      </button>*/}
                   </div>
               </div>
           </div>

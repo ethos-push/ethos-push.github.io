@@ -8,7 +8,7 @@ import Icon from '../../images/excel.png'
 // Import utilities
 import { tailwindConfig, hexToRGB } from '../../utils/Utils';
 
-function DashboardCard01({title, numNotifications, ctr, text, file, fileName}) {
+function DashboardCard01({title, numNotifications, ctr, numUsers, numApps, numTopics, text, file, fileName}) {
 
   const chartData = {
     labels: [
@@ -77,14 +77,29 @@ function DashboardCard01({title, numNotifications, ctr, text, file, fileName}) {
           <div className="text-3xl font-bold text-gray-800 mr-2">{numNotifications}</div>
           <div className="text-sm font-semibold text-white px-1.5 bg-green-500 rounded-full mb-1">{ctr}% CTR</div>
         </div>
-        <div className="text-gray-400 mt-2 text-justify">
+        <div className="text-gray-400 mt-2 text-center">
           <p>{text}</p>
         </div>
       </div>
-      {/* Chart built with Chart.js 3 */}
-      <div className="flex-grow">
-        {/* Change the height attribute to adjust the chart height */}
-        <LineChart data={chartData} width={389} height={128} />
+      <div className="px-5 py-5 grid grid-flow-col grid-cols-3 gap-4 text-center">
+        <div>
+          <div className="text-xs font-semibold text-gray-400 uppercase mb-1">Num. Users</div>
+          <div>
+            <div className="text-2xl font-bold text-gray-800 mr-2">{numUsers}</div>
+          </div>
+        </div>
+        <div>
+          <div className="text-xs font-semibold text-gray-400 uppercase mb-1">Num. Apps</div>
+          <div>
+            <div className="text-2xl font-bold text-gray-800 mr-2">{numApps}</div>
+          </div>
+        </div>
+        <div>
+          <div className="text-xs font-semibold text-gray-400 uppercase mb-1">Num. Topics</div>
+          <div>
+            <div className="text-2xl font-bold text-gray-800 mr-2">{numTopics}</div>
+          </div>
+        </div>
       </div>
     </div>
   );
