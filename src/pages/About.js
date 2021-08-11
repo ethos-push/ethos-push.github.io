@@ -103,9 +103,9 @@ function About() {
                       <p className="mt-4 text-gray-600 font-bold">Resources:</p>
                       <ol className="ml-4 mt-2 list-decimal text-gray-600">
                           <li className="mb-2">
-                              <a href="/data" className="cursor-pointer transform hover:scale-y-110 hover:p-0.5 hover:font-bold underline">Synthetic Notification Data</a>
+                              <a>Synthetic Notification Data</a>
                               <p><i>Open source, synthetic data sets, derived from notification engagements captured in-the-wild
-                                  with which to train algorithms to better manage push-notifications</i></p>
+                                  with which to train algorithms to better manage push-notifications. Click the <strong>Data</strong> tab for more info.</i></p>
                           </li>
                           <li className="mb-2">
                               <a className="cursor-pointer transform hover:scale-y-110 hover:p-0.5 hover:font-bold underline"

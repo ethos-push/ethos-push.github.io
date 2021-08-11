@@ -38,7 +38,8 @@ function Header({
 
             {/*<SearchModal />
             <Notifications />*/}
-            <Help />
+            <p className="text-sm text-gray-400">Last Update: 11 Aug 2021</p>
+            {/*<Help />*/}
             {/*  Divider */}
             {/*<hr className="w-px h-6 bg-gray-200 mx-3" />
             <UserMenu />*/}

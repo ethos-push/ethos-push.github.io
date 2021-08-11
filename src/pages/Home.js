@@ -107,7 +107,7 @@ function Home() {
                           help facilitate future work in the field.
                       </p>
                   </div>
-                  <div className="flex justify-end items-center mt-4 w-full">
+                  {/*<div className="flex justify-end items-center mt-4 w-full">
                       <button className="btn bg-indigo-500 hover:bg-indigo-600 text-white ml-2">
                           <a className="hidden xs:block" href="/about">Learn More</a>
                       </button>
@@ -117,7 +117,7 @@ function Home() {
                       <button className="btn bg-indigo-500 hover:bg-indigo-600 text-white ml-2">
                           <a className="hidden xs:block" href="/contact">Contact Us</a>
                       </button>
-                  </div>
+                  </div>*/}
               </div>
           </div>
         </main>
